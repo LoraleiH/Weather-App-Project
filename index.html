@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/650ece7d29.js" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
+
+
+<link rel="stylesheet" href="src/style.css">
+
+
+   <title>Weather App</title>
+</head>
+<body>
+
+    <div class="container">
+
+<div class="card app-frame">
+<form class="search-bar" id="search-form">
+    <div class="row">
+  <div class="col-auto">
+<input 
+type="search" 
+class="form-control" 
+placeholder="Enter city here..." 
+id="search-field"/>
+</div>
+  <div class="col-auto">
+<input 
+type="submit" 
+class="btn btn-secondary" 
+value="Search" id="submit-button"/>
+
+<input 
+type="submit" 
+class="btn btn-primary" 
+value="Current Location" 
+id="submit-current-button"/>
+</div>
+</div>
+</form>
+    <br />
+
+    <div class="today-info">
+    <div class="row">
+        <div class="col">
+   <h1 class="cityTitle" id="city-title"></h1> 
+   <h5>
+<span id="date-time"></span>
+<br />
+<span id="weather-description"></span>
+<br />
+Humidity: <span id="humidity"></span>%
+<br />
+Wind Speed: <span id="wind-speed"></span> kmph
+
+
+   </h5>
+   </div>
+        <div class="col big-symbol">
+
+   <i class="fa-solid fa-cloud main-symbol"></i>
+<p class="temp">
+    <span id="today-temp"></span>° 
+    
+    <a href=# id="c-temp">C</a> 
+    | 
+    
+    <a href=# id="f-temp">F</a>
+</p>
+
+   </div>
+</div>
+</div>
+
+<div class="week-weather">
+  <div class="row">
+        <div class="col">
+            Mon
+            <br />
+            <i class="fa-solid fa-cloud small-symbol"></i>
+             <br />
+            <span class="temp-high">16° </span> <span class="temp-low">9°</span>
+            </div>
+
+        <div class="col">
+           Tue 
+            <br />
+           <i class="fa-solid fa-wind small-symbol"></i>
+           <br />
+            <span class="temp-high">16° </span> <span class="temp-low">9°</span>
+            </div>
+
+    
+        <div class="col">
+            Wed
+             <br />
+<i class="fa-solid fa-cloud-sun small-symbol"></i>
+<br />
+             <span class="temp-high">16° </span> <span class="temp-low">9°</span>
+            </div>
+
+
+        
+        <div class="col">
+            Thu
+             <br />
+            <i class="fa-solid fa-cloud small-symbol"></i>
+            <br />
+             <span class="temp-high">16° </span> <span class="temp-low">9°</span>
+            </div>
+
+        
+        <div class="col">
+            Fri
+             <br />
+<i class="fa-solid fa-cloud-rain small-symbol"></i>
+<br />
+            <span class="temp-high">16° </span> <span class="temp-low">9°</span>
+            </div>
+
+        
+        <div class="col">
+
+            Sat
+             <br />
+            <i class="fa-solid fa-cloud small-symbol"></i>
+            <br />
+            <span class="temp-high">16° </span> <span class="temp-low">9°</span>
+            </div>
+
+              
+        <div class="col">
+
+            Sun
+            <br />
+            <i class="fa-solid fa-cloud-rain small-symbol"></i>
+            <br />
+             <span class="temp-high">16° </span> <span class="temp-low">9°</span>
+
+            </div>
+
+            </div>
+</div>
+
+
+
+</body>
+<script src="src/script.js"></script>
+</html>

@@ -1,0 +1,64 @@
+
+
+.app-frame {
+
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.big-symbol {
+
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    top: 20px;
+}
+
+
+.city-input {
+
+margin: 0;
+
+
+}
+
+.city-search {
+    margin: 0;
+    
+}
+
+.main-symbol {
+font-size: 65px;
+margin: 10px;
+}
+
+
+.search-bar {
+
+    display: block;
+    margin: 0 auto;
+
+}
+
+.small-symbol {
+   font-size: 30px;
+   margin: 10px;
+
+}
+
+.temp-low {
+
+    color: grey;
+}
+
+.today-info {
+    margin: 30px;
+}
+
+.week-weather {
+    text-align: center;
+    font-weight: bold;
+}
