@@ -30,6 +30,12 @@ margin: 0;
     
 }
 
+.code-source {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+
 .main-symbol {
 font-size: 65px;
 margin: 10px;
